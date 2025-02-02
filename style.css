@@ -76,6 +76,7 @@ button{
 
 #clear {
     background-color: #9315d6;
+    font-weight: bold;
 }
 
 #eraser_image {
@@ -103,4 +104,41 @@ button{
     font-weight: bold;
 }
 
+body.green-theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #71fc97 , #9a09b8 , #ec60f5, #71fc97);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body.green-theme button {
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #96f589;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/*Green mode*/
+body.green-theme .operation {
+    background-color: #53e640;
+}
+
+body.green-theme #eraser {
+    background-color: #189623;
+}
+
+body.green-theme #clear {
+    background-color: #189623;
+}
+
+body.green-theme #switch {
+    background-color: #a541c9;
+    color: antiquewhite;
+}
 
