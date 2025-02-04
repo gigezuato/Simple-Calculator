@@ -44,7 +44,7 @@ body {
 
 #operations{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);  /* 4 colunas */
+    grid-template-columns: repeat(5, 1fr);  /* 4 colunas */
     gap: 10px;  /* Espaço entre os botões */
     margin-top: 10px;
 }
@@ -82,6 +82,11 @@ button{
 #eraser_image {
     width: 30px;
     height: 30px;
+}
+
+#equal {
+    background-color: #9315d6;
+    font-weight: bold;
 }
 
 #switch {
@@ -134,6 +139,10 @@ body.green-theme #eraser {
 }
 
 body.green-theme #clear {
+    background-color: #189623;
+}
+
+body.green-theme #equal {
     background-color: #189623;
 }
 
